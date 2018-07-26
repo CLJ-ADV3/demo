@@ -1,0 +1,8 @@
+version: '3'
+services:
+  demo:
+    build: ./demo
+    image: cdacr.azurecr.io/webapp
+    container_name: cdacr
+    ports:
+        - "8083:80"
